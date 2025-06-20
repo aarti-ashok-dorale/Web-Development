@@ -1,0 +1,90 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #6a1b9a; /* Deep purple */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.page {
+    padding: 30px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.project {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #6a1b9a;
+    text-decoration: none;
+}
+
+.project a:hover{
+    text-decoration: underline;
+}
+
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contactForm button {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h2 {
+    color: #6a1b9a;
+}

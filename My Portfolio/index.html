@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aarti's Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="page active">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>Hi, I'm Aarti! A creative web developer passionate about building beautiful and functional websites. I specialize in HTML, CSS, JavaScript, and [mention frameworks].</p>
+            <p>Skills: HTML, CSS, JavaScript, [skills], Responsive Design.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="page">
+        <h2>My Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1" class="project-img">
+            <h3>Project 1: E-Commerce Site</h3>
+            <p>Responsive e-commerce site with product listings and cart.</p>
+            <a href="[project1 link]" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2" class="project-img">
+            <h3>Project 2: Personal Portfolio</h3>
+            <p>Clean and modern personal portfolio to highlight my work.</p>
+            <a href="[project2 link]" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact" class="page">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required><br><br>
+            <input type="email" id="email" placeholder="Your Email" required><br><br>
+            <textarea id="message" placeholder="Your Message" required></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="messageDisplay"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
